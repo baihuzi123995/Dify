@@ -164,6 +164,6 @@ async def process_attributes(request: Request):
         raise HTTPException(status_code=500, detail=f"Processing failed: {str(e)}")
     
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app=app, host="127.0.0.1", port=8000)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app=app, host="127.0.0.1", port=8000)
